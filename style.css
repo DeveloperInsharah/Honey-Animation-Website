@@ -287,5 +287,52 @@ header>.icons>i:hover{
     100% {
         top: 50%;
         left: 2%;
+    } 
+}
+.about{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #b85a03;
+    font-size: 20px;
+    margin: 0%;
+}
+.about::after{
+    content: "";
+    width: 1%;
+    height: 10%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #F99D1B;
+    animation-name: line;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes line {
+    0%{
+        width: 0%;
+        left: 0;
+    }
+    1%{
+        width: 10%;
+        left: 0%;
+    } 
+    30%{
+        width: 30%;
+        left: 0%;
+    }
+    50%{
+        width: 40%;
+        left: 5%;
     }  
+    90%{
+        width: 20%;
+        left: 30%;
+    } 
+    100%{
+        width: 0%;
+        right: 0;
+    }
 }
