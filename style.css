@@ -91,6 +91,7 @@ header>.icons>i:hover{
     border: 2px solid white;
     box-shadow: 1px 1px 5px 1px #b85a03;
     margin-top: 1%;
+    margin-bottom: 2%
 }
 .body{
     display: flex;
